@@ -1,0 +1,46 @@
+HTML -- Hyper Text Markup Language
+
+1. It's format of writing a web application
+2. It plays a vital role in building web application
+3. It has been designed in such a way that it has lots of tags which 
+4. Learning HTML is very easy and Learning curve is less.
+
+Like HTML : 
+1. XML (Deprecated) 
+2. XHTML (Deprecated)
+
+Basic tags of HTML : 
+Types of tags
+1.Semantic (S): By the name of tag we understand their functionality
+2.Non-Semantic (NS): On reading we can take help of intution
+
+html - S 
+head - S 
+body - S 
+div - NS 
+
+//Typeography tags
+p - NS 
+h1 - NS
+h2 - NS 
+h3 - NS 
+h4 - NS 
+h5 - NS 
+h6 - NS 
+span - NS 
+section - S
+footer - S 
+Mark - 
+b - NS 
+i - NS 
+em - NS 
+a - NS 
+img - NS 
+
+//Inputs
+button - S 
+Inputs - S 
+radio - S 
+checkbox - S 
+datetime - S
+

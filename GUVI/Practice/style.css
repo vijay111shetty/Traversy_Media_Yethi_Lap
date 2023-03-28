@@ -1,0 +1,55 @@
+/* body{
+    max-width: 1080px;
+} */
+
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: #00ff15;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #00ff15;
+    margin: 20px;
+    /* margin-left: 20px; */
+    /* box-sizing: border-box; */
+}
+
+/* .jumbotron{
+    width: 100%;
+    background-color: rgb(235, 238, 227);
+    height: 250px;
+    border-radius: 10px;
+} */
+.container-r{
+    display: flex;
+}
+
+.container-r-w{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-c-r{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cardjustify-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardjustify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.cardjustify-end{
+    display: flex;
+    justify-content: end;
+}

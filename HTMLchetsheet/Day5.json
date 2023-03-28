@@ -1,0 +1,15 @@
+{
+    "name" : "Vijay Shettisadavarti",
+    "mobile" : "7259928442",
+    "Education" : "B Tech",
+    "experience" : "2 years",
+    "Domain" : "Software testing",
+    "Applications worked with" : "Salesforce",
+    "Projects" : {
+        "first one" : "Salesforce for PL",
+        "Second one" : "Salesforce for CLOS",
+        "THird one" : "Salesforce for VLOS"
+    },
+    "Acadamics" : ["SSLC","PUC","BTECH"],
+    "Skills" : ["API testing", "Automation testing","selenium","Integration testing","Backend testing"]
+}
