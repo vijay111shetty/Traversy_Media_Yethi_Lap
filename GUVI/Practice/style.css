@@ -2,6 +2,10 @@
     max-width: 1080px;
 } */
 
+html{
+    max-width: 760px;
+    margin: auto;
+}
 .rectangle{
     width: 100px;
     height: 100px;
@@ -19,12 +23,14 @@
     /* box-sizing: border-box; */
 }
 
-/* .jumbotron{
+.jumbotron{
     width: 100%;
-    background-color: rgb(235, 238, 227);
+    background-color: rgb(227, 241, 188);
     height: 250px;
     border-radius: 10px;
-} */
+    /* display: flex; */
+}
+
 .container-r{
     display: flex;
 }
@@ -51,5 +57,70 @@
 
 .cardjustify-end{
     display: flex;
+    justify-content: flex-end;
+}
+
+.aligncenterjustifycenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aligncenterjustifyend{
+    display: flex;
+    align-items: center;
     justify-content: end;
+}
+
+.aligncenterjustifystart{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.alignendjustifyend{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.justifybetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justifyarround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justifyevenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pos-absolute{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+/* .relativejumbotron{
+    position: relative;
+} */
+
+.pos-relative{
+    top: 100px;
+    right: 10px;
+}
+
+.pos-fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.stickyposition{
+    position: sticky;
+    top: 0px;
 }
