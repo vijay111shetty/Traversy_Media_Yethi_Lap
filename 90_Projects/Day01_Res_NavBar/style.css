@@ -1,0 +1,43 @@
+.Navbar{
+    background-color: rgb(6, 6, 102);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: rgb(229, 233, 236);
+    /* padding-left: 10px; */
+    /* margin-left: 20px;
+    box-sizing: border-box; */
+}
+
+a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    /* padding-right: 20px; */
+    
+}
+
+@media screen and (max-width:805px) {
+    .Navbar, .list{
+        flex-direction: column;
+    }
+}
