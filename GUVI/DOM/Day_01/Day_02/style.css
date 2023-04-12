@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
+    text-align: center;
+    /* border-radius: 10px; */
+    
+}
+.inbuilt-fun{
+    padding: 5px;
+    border: none;
+    width: 70px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+.alert{
+    background-color: crimson;
+    color: white;
+}
+
+.prompt{
+    background-color: yellowgreen;
+    color: azure;
+}
+
+.confirm{
+    background-color: blue;
+    color: white;
+}
