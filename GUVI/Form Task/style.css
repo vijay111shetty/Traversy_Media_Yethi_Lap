@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    /* max-width: 760px;
+    width: auto; */
+    /* text-align: center; */
+    /* align-items: start; */
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.headers{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin: 10px;
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px;
+    margin: 10px; */
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+.addresses{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.state-country{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+.country{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+
+.state{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+
+.pincode-gender{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+.pincode{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.genderradio{
+    align-items: center;
+    justify-content: start;
+}
+.choice-of-food{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.radiofood{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.submits{
+    padding: 10px;
+    /* background-color: blue;
+    color: white; */
+    /* margin: 10px; */
+}
+
+#first-name{
+    background-color: white;
+    border: none ;
+    height: 25px;
+    /* padding: 10px; */
+}
+
+#lastname{
+    background-color: white;
+    border: none ;
+    height: 25px;
+}
+
+textarea{
+    background-color: white;
+    height: 40px;border: none;
+}
+
+#statename{
+    background-color: white;
+    border: none ;
+    height: 25px;
+}
+
+#countryname{
+    background-color: white;
+    border: none ;
+    height: 25px;
+}
+
+#pincodenum{
+    background-color: white;
+    border: none ;
+    height: 25px;
+}
+
+#submitbut{
+    background-color: rgb(42, 42, 233);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10%;
+    
+}

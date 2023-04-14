@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title id="title">Update Form</title>
+</head>
+<body>
+    <form action="" id="form">
+        <div class="headers">
+            <h1>Update Form</h1>
+            <h5>This is a Dom-Form updation, Please fill in all your details and update the form and please select minimun of two food choices</h5>
+        </div>
+        <div class="names">
+            <div class="first name">
+                <label for="first-name">First Name</label>
+                <input type="text" name="" id="first-name" placeholder="Enter First Name">
+            </div>
+            <div class="last name">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="" id="lastname" placeholder="Enter Last Name">
+            </div>
+        </div>
+        <div class="addresses">
+            <label for="Address">Address</label>
+            <textarea placeholder="Enter full Address" id="addressess"></textarea>
+        </div>
+        <div class="state-country">
+            <div class="state">
+                <label for="state">State</label>
+                <input type="text" name="" id="statename" placeholder="Enter Your State">
+            </div>
+            <div class="country">
+                <label for="country">Country</label>
+                <input type="text" name="" id="countryname" placeholder="Enter Your Country">
+            </div>
+        </div>
+        
+        <div class="pincode-gender">
+            <div class="pincode">
+                <label for="poincode">Pincode</label>
+                <input type="number" name="" id="pincodenum" placeholder="Enter your Pincode">
+            </div>
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <div class="genderradio">
+                    <label for="male">Male</label>
+                    <input type="radio" name="" id="Male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="" id="Female">
+                    <label for="other">Other</label>
+                    <input type="radio" name="" id="Other">
+                </div>
+            </div>
+        </div>
+        <div class="choice-of-food">
+                <label for="food">Choice of Food :</label>
+                <div class="radiofood">
+                    <ul class="radiofood">
+                        <li><input type="radio" class="foodradio" id="Indian">Indian</li>
+                        <li><input type="radio" class="foodradio" id="Thai">Thai</li>
+                        <li><input type="radio" class="foodradio" id="Mexican">Mexican</li>
+                        <li><input type="radio" class="foodradio" id="Italian">Italian</li>
+                        <li><input type="radio" class="foodradio" id="Chinese">Chinese</li>
+                    </ul>
+                </div>
+        </div>
+            <div class="submits">
+                <input type="button" id="submitbut"value="Submit">
+        </div>
+    </form>
+    <div id="result-table"></div>
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
