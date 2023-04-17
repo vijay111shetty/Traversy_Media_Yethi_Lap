@@ -104,7 +104,7 @@ function tabledisplayval() {
     var displaytableheaderfirstnameval = document.createElement("th");
     displaytableheaderfirstnameval.textContent = document.getElementById("first-name").value;;
     var displaytableheaderlastnameval = document.createElement("th");
-    displaytableheaderlastnameval.textContent = document.getElementById("lastname").value;
+    displaytableheaderlastnameval.textContent = document.getElementById("last-name").value;
     var displaytableheaderaddressval = document.createElement("th");
     displaytableheaderaddressval.textContent = document.getElementById("addressess").value;
     var displaytableheaderstateval = document.createElement("th");
