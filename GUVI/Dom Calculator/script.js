@@ -45,7 +45,7 @@ outpustscr.addEventListener("keydown",(event)=>{
     else if(event.key === "Enter"){
         var res = eval(outpustscr.value);
         window.alert((`${outpustscr.value} = ${res}`));
-        location.reload();
+        // location.reload();
     }
 })
 
