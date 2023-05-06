@@ -101,21 +101,21 @@ function tabledisplayval() {
     displaytablehead.appendChild(displaytabletr);
 
     var displaytabletrval = document.createElement("tr");
-    var displaytableheaderfirstnameval = document.createElement("th");
+    var displaytableheaderfirstnameval = document.createElement("td");
     displaytableheaderfirstnameval.textContent = document.getElementById("first-name").value;;
-    var displaytableheaderlastnameval = document.createElement("th");
+    var displaytableheaderlastnameval = document.createElement("td");
     displaytableheaderlastnameval.textContent = document.getElementById("last-name").value;
-    var displaytableheaderaddressval = document.createElement("th");
+    var displaytableheaderaddressval = document.createElement("td");
     displaytableheaderaddressval.textContent = document.getElementById("addressess").value;
-    var displaytableheaderstateval = document.createElement("th");
+    var displaytableheaderstateval = document.createElement("td");
     displaytableheaderstateval.textContent = document.getElementById("statename").value;
-    var displaytableheadercountryval = document.createElement("th");
+    var displaytableheadercountryval = document.createElement("td");
     displaytableheadercountryval.textContent = document.getElementById("countryname").value;
-    var displaytableheaderpincodeval = document.createElement("th");
+    var displaytableheaderpincodeval = document.createElement("td");
     displaytableheaderpincodeval.textContent = document.getElementById("pincodenum").value;
-    var displaytableheadergenderval = document.createElement("th");
+    var displaytableheadergenderval = document.createElement("td");
     displaytableheadergenderval.textContent = gensel;
-    var displaytableheaderfoodval = document.createElement("th");
+    var displaytableheaderfoodval = document.createElement("td");
     displaytableheaderfoodval.textContent = foodsel;
 
     displaytabletrval.appendChild(displaytableheaderfirstnameval);
